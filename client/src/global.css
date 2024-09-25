@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272727;
+  color: rgb(247, 120, 74);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  border-bottom: 1px solid rgb(247, 120, 74);
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul li,
+header h1 {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.phrase {
+  text-align: center;
+}
+
+li {
+  color: rgb(247, 120, 74);
+}
+
+a {
+  color: #272727;
+}
